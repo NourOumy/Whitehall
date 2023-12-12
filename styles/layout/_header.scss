@@ -21,10 +21,11 @@ header{
 .entete{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px 0;
-    background-color:#eaeded;
+    padding: 20px 15px;
+    background-color:#f6f6f0;
+    
     input{
                 padding: 10px 10px 10px 50px;
                 border: 2px solid #96958a;
@@ -32,11 +33,11 @@ header{
                 background-color:white;
             }
     .logo{
-        
+        margin-right: 150px;
     }
     .nav_ecommerce_icones{
         a{
-            
+            padding: 5px;
         }
     }
 }
@@ -44,10 +45,11 @@ header{
 .nav__header{
     border: 1px solid #96958a;
     width: 100%;
-    background-color:#eaeded;
+    background-color:#f6f6f0;
     display: flex;
     justify-content: center;
     a{
         padding: 10px 20px;
+        font-size: 22px;
     }
 }

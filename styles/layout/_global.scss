@@ -1,4 +1,26 @@
+body{
+    font-family: 'tinos';
+}
+
 a{
     text-decoration: none;
     color: black;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h4{
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button{
+    background-color: #96958a;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
 }
