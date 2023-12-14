@@ -1,0 +1,100 @@
+.bg-fixed{
+    height: 70vh;
+    background-color: #f6f6f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    position: relative;
+    z-index: 1;
+    div{
+        width: 40%;
+
+        img{
+            position: absolute;
+            top: 38%;
+            right: 40%;
+            z-index: -1;
+        }
+    }
+}
+
+.singlebottle_products{
+    margin-top: 50px;
+    width: 300px;
+}
+.singlebottle_product__bgimg{
+    height: 300px;
+    width: 300px;
+    
+    position: relative;
+    
+    .button{
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+        width: 80%;
+        text-align: center;
+    }
+    .favoris{
+        background-color: #f6f6f0;
+        padding: 10px;
+        border-radius: 100%;
+        margin-left: 80%;
+    }
+}
+.singlebottle_product__descriptions, .year{
+    font-size: 15px;
+}
+.singlebottle_product__descriptions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.year{
+    color: #96958a;
+    font-style: italic;
+}
+
+.singlebottle_product__bgimg:nth-of-type(1){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(2){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(3){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(4){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(5){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(6){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(7){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(8){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(9){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(10){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(11){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(12){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
+.singlebottle_product__bgimg:nth-of-type(13){
+    background: url(../../images/pinot19_628x628.png) center/cover;
+}
